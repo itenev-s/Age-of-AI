@@ -35,3 +35,17 @@
   .menu-item a:hover {
     background-color: #555;
   }
+
+  main::after {
+    content: "";
+    clear: both;
+    display: block;
+  }
+
+  footer {
+    height: 100px;
+  }
+
+  main {
+    margin-bottom: 100px;
+  }
