@@ -53,31 +53,43 @@
   /* styling for articles page */
 
   .article {
-  display: flex;
-  flex-direction: row;
-  margin-bottom: 20px;
-  border: 1px solid lightgray;
-  border-radius: 5px;
-  overflow: hidden;
-}
-
-.article-image {
-  width: 200px;
-  height: auto;
-  object-fit: cover;
-}
-
-.article-title {
-  margin: 10px 0;
-}
-
-.article-date {
-  color: gray;
-  font-size: 12px;
-  margin: 0 10px 10px 10px;
-}
-
-.article-description {
-  flex-grow: 1;
-  padding: 10px;
-}
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 20px;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    overflow: hidden;
+  }
+  
+  .article-image {
+    width: 200px;
+    height: auto;
+    object-fit: cover;
+  }
+  
+  .article-title {
+    margin: 10px 0;
+  }
+  
+  .article-date {
+    color: gray;
+    font-size: 12px;
+    margin: 0 10px 10px 10px;
+  }
+  
+  .article-description {
+    flex-grow: 1;
+    padding: 10px;
+  }
+  
+  #article-list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  
+  .article {
+    width: calc(33.333% - 20px);
+    margin: 0 10px 10px 0;
+  }
+  
